@@ -131,7 +131,7 @@ def getAccuracy(testSet, predictions):
 
 
 def main():
-    filename = 'dataset2.csv'
+    filename = 'pima-diabetes-dataset-with-categorical-var.csv'
     splitRatio = 0.7 # 70% training and 30% testing
     dataset = loadData(filename)
     trainingSet, testSet = train_test_data(dataset, splitRatio)
